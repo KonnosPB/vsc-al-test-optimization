@@ -1,0 +1,30 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+# don't ignore
+!.gitkeep
+
+# ignore
+launch*.json
+rad.json
+*.app
+*.orig
+*.zip
+*.7z
+*.pdf
+*.doc
+*.docx
+*.xlsx
+*.xls
+*.vsix
+*.bacpac
+*.alodb
+/app/.alpackages/*
+/app/.favorites.json
+/app/.vscode/.alcache/*
